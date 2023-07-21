@@ -29,6 +29,9 @@ header {
     background: cornflowerblue;
     min-height: 100dvh;
     transition: 0.4s;
+    display: flex;
+  
+    flex-direction: column;
 }
 
 .nav {
@@ -57,3 +60,25 @@ header {
     font-size: 18px;
     text-transform: uppercase;
 }
+.header__title{
+    font-size: 6vw;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-grow: ;
+    
+}
+
+.header-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-grow: 1;
+}
+
+
+
+ 
+
+ 
